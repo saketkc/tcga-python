@@ -15,7 +15,8 @@ setup(
     keywords = "example documentation tutorial",
     url = "http://packages.python.org/tcga",
     packages=['TCGA', 'tests'],
-    long_description=read('README'),
+    install_requires=['argparse','requests'],
+    long_description=read('README.md'),
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
